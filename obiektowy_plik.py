@@ -4,7 +4,7 @@ class Pracownik:
         self.stanowisko = stanowisko
         self.pensja = pensja
 
-# zmiana 4
+# zmiana 5
 
     def przedstaw_sie(self):
         print(f"Imię: {self.imie}")
