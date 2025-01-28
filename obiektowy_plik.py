@@ -4,6 +4,8 @@ class Pracownik:
         self.stanowisko = stanowisko
         self.pensja = pensja
 
+# zmiana 2
+
     def przedstaw_sie(self):
         print(f"Imię: {self.imie}")
         print(f"Stanowisko: {self.stanowisko}")
@@ -29,7 +31,7 @@ class PelnoetatowyPracownik(Pracownik):
 
 class Kontraktor(Pracownik):
     def __init__(self, imie, stanowisko, stawka_godzinowa, godziny_pracy):
-        super().__init__(imie, stanowisko, 0)  # Kontraktor nie ma stałej pensji
+        super().__init__(imie, stanowisko, 0)
         self.stawka_godzinowa = stawka_godzinowa
         self.godziny_pracy = godziny_pracy
 
